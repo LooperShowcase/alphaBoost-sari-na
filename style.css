@@ -16,3 +16,37 @@ h1
     text-align: center;
 color: darkblue;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(32, 20, 138);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(211, 21, 21);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  #mybox {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      animation-name: animation;
+  }
